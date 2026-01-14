@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>1day仕事体験予約｜企業名</title>
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap">
+
+  <style>
+    :root{
+      --text:#1a1a1a;
+      --muted:#666;
+      --border:#e6e9ef;
+      --primary:#0069ff;
+      --bg:#fff;
+      --container:800px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:'Noto Sans JP',system-ui,-apple-system,'Segoe UI',sans-serif;
+      margin:0; color:var(--text); background:var(--bg); line-height:1.6;
+    }
+
+    header{
+      position:sticky; top:0; z-index:10;
+      background:#fff;
+      border-bottom:1px solid var(--border);
+      padding:12px 16px;
+      display:flex; align-items:center; justify-content:space-between;
+    }
+
+    .brand{display:flex; align-items:center; gap:8px;}
+    .brand img{height:32px; width:auto}
+    .brand span{font-weight:600;}
+
+    .cta-btn{
+      display:inline-block; min-height:44px; line-height:44px;
+      padding:0 16px; border-radius:10px;
+      background:var(--primary); color:#fff;
+      text-decoration:none; font-weight:600;
+    }
+
+    section{padding:24px 16px; margin:auto; max-width:var(--container);}
+    h1{font-size:28px; margin-bottom:16px}
+    h2{font-size:20px; margin:24px 0 12px}
+    p{font-size:16px}
+
+    .dates{padding-left:22px}
+    .dates li{margin-bottom:8px}
+
+    iframe{
+      width:100%;
+      height:min(75vh, 900px);
+      border:none;
+      border-radius:12px;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px 16px;
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    :target::before{
+      content:"";
+      display:block;
+      height:72px;
+      margin-top:-72px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <img src="logo.png" alt="企業ロゴ">
+    
+  </div>
+  <a href="#apply" class="cta-btn">予約する</a>
+</header>
+
+<section>
+  <h1>1day仕事体験予約</h1>
+  <p>本ページは、オンライン・インターンシップへの参加予約ページです。</p>
+
+  <h2>開催日程</h2>
+  <ul class="dates">
+    <li>2026年1月9日（金） 13:15–18:00</li>
+    <li>2026年1月13日（火） 13:15–18:00</li>
+    <li>2026年1月15日（木） 13:15–18:00</li>
+    <li>2026年1月19日（月） 13:15–18:00</li>
+    <li>2026年1月26日（月） 13:15–18:00</li>
+  </ul>
+</section>
+
+<section id="apply">
+  <h2>予約フォーム</h2>
+  <p>以下のフォームに入力してください。</p>
+
+  <iframe
+    src="https://forms.office.com/Pages/ResponsePage.aspx?id=XXXX&embed=true&utm_source=instagram&utm_medium=social&utm_campaign=internship"
+    loading="lazy">
+  </iframe>
+
+  <p style="font-size:12px; color:#666; margin-top:8px;">
+    送信後、ご登録いただいたメールアドレス宛に、参加方法のご案内をお送りします。
+  </p>
+
+  <p style="font-size:12px; color:#666;">
+    ご入力いただいた個人情報は、インターンシップ運営目的のみに利用します。
+    <a href="/privacy.html">プライバシーポリシー</a>をご確認ください。
+  </p>
+</section>
+
+<footer>
+  © 2026 企業名（仮）
+</footer>
+
+</body>
+</html>
