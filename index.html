@@ -1,155 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>27卒1day仕事体験予約｜MDロジス株式会社</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>27卒1day仕事体験予約｜MDロジス株式会社</title>
 
-  <!-- Google Fonts -->
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap">
+https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap
 
-  <style>
-    :root{
-      --text:#1a1a1a;
-      --muted:#666;
-      --border:#e6e9ef;
-      --primary:#0069ff;
-      --bg:#fff;
-      --container:800px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      font-family:'Noto Sans JP',system-ui,-apple-system,'Segoe UI',sans-serif;
-      margin:0; color:var(--text); background:var(--bg); line-height:1.6;
-    }
+<style>
+:root{
+  --primary:#0069ff;
+  --text:#1a1a1a;
+  --muted:#666;
+  --border:#e6e9ef;
+}
+*{box-sizing:border-box}
 
-    header{
-      position:sticky; top:0; z-index:10;
-      background:#fff;
-      border-bottom:1px solid var(--border);
-      padding:12px 16px;
-      display:flex; align-items:center; justify-content:space-between;
-    }
+body{
+  margin:0;
+  font-family:'Noto Sans JP',sans-serif;
+  color:var(--text);
+  line-height:1.6;
+}
 
-    .brand{display:flex; align-items:center; gap:8px;}
-    .brand img{height:32px; width:auto}
-    .brand span{font-weight:600;}
+header{
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:#fff;
+  border-bottom:1px solid var(--border);
+  padding:12px 16px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
 
-    .cta-btn{
-      display:inline-block; min-height:44px; line-height:44px;
-      padding:0 16px; border-radius:10px;
-      background:var(--primary); color:#fff;
-      text-decoration:none; font-weight:600;
-    }
+.brand img{height:32px}
 
-    section{padding:24px 16px; margin:auto; max-width:var(--container);}
-    h1{font-size:28px; margin-bottom:16px}
-    h2{font-size:20px; margin:24px 0 12px}
-    p{font-size:16px}
+.cta{
+  background:var(--primary);
+  color:#fff;
+  border-radius:999px;
+  padding:10px 18px;
+  font-weight:600;
+  text-decoration:none;
+}
 
-    .dates{padding-left:22px}
-    .dates li{margin-bottom:8px}
+section{
+  max-width:800px;
+  margin:auto;
+  padding:24px 16px;
+}
 
-    iframe{
-      width:100%;
-      height:min(75vh, 900px);
-      border:none;
-      border-radius:12px;
-    }
+h1{font-size:26px}
+h2{font-size:20px; margin-top:32px}
 
-    footer{
-      text-align:center;
-      padding:20px 16px;
-      font-size:14px;
-      color:var(--muted);
-    }
+.card{
+  background:#f9fafc;
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:16px;
+  margin-top:16px;
+}
 
-    :target::before{
-      content:"";
-      display:block;
-      height:72px;
-      margin-top:-72px;
-    }
-  </style>
+ul{padding-left:20px}
+
+iframe{
+  width:100%;
+  height:75vh;
+  border:none;
+  border-radius:12px;
+}
+
+/* 下部固定CTA（スマホ） */
+.fixed-cta{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:12px 16px;
+  background:#fff;
+  border-top:1px solid var(--border);
+}
+.fixed-cta a{
+  display:block;
+  text-align:center;
+  background:var(--primary);
+  color:#fff;
+  padding:14px;
+  border-radius:12px;
+  font-weight:600;
+  text-decoration:none;
+}
+
+footer{
+  padding:24px 16px 100px;
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+}
+</style>
 </head>
 
 <body>
 
 <header>
   <div class="brand">
-    <img src="logo.png" alt="企業ロゴ">
-    
+    logo.png
   </div>
-  <a href="#apply" class="cta-btn">予約する</a>
+  #apply予約する</a>
 </header>
 
 <section>
-  <h1>27卒1day仕事体験予約</h1>
-  <p>本ページは、MDロジス株式会社1dayオンライン仕事体験予約ページです。</p>
-〈p〉この1day仕事体験は…<br>
-・物流業界について０から知ることができ、業界研究に役立ちます。
-・各物流会社の役割や関係性の理解を深めることでき、企業研究に役立ちます。
-・MDロジスの魅力・価値・存在意義を知ることができます。<br><br>
+  <h1>27卒 1day仕事体験</h1>
+  <p>物流業界をゼロから学べるオンライン仕事体験です。</p>
 
-◆概要◆<br>
-１．物流業界/会社紹介<br>
-２．物流基礎知識講座<br>
-３．ワークショップ（就業疑似体験）<br>
-（1）輸送コーディネート業務ワーク<br>
-ただ「ものを届けたらよい」のではなく、お客様のニーズに応えながら、輸送ルートや輸送手段をコーディネートし、最適な物流提案をしていただきます。<br>
-（2）倉庫新設計画業務ワーク<br>
-物流倉庫を建設する拠点の計画や倉庫内に導入するマテハン機器・情報システムなどを検討し、提案していただきます。<br>
+  <div class="card">
+    <ul>
+      <li>物流業界・企業研究に役立つ</li>
+      <li>MDロジスの価値・役割がわかる</li>
+      <li>実務を想定したワーク付き</li>
+    </ul>
+  </div>
 
-＊各ワークショップごとにフィードバックいたします。<br>
-＊上記のプログラム内容は予定であり、開催日程によって多少変更する可能性もあります。<br><br>
-
-◆持ち物◆<br>
-PC・筆記用具<br>
-※服装は私服で構いません。<br>
-
-◆連絡先◆<br>
-MDロジス株式会社 採用担当 佐藤・河野<br>
-03‐6777‐9911</p>
+  <h2>プログラム内容</h2>
+  <ul>
+    <li>物流業界・会社紹介</li>
+    <li>物流基礎知識講座</li>
+    <li>輸送コーディネート／倉庫設計ワーク</li>
+  </ul>
 
   <h2>開催日程</h2>
-  <ul class="dates">
-    <li>2026年1月19日（月） 13:15–18:00</li>
-    <li>2026年1月26日（月） 13:15–18:00</li>
-    <li>2026年2月3日（火） 13:15–18:00</li>
-    <li>2026年2月5日（木） 13:15–18:00</li>
-    <li>2026年2月13日（金） 13:15–18:00</li>
-    <li>2026年2月16日（月） 13:15–18:00</li>
+  <ul>
+    <li>1/19（月）13:15–18:00</li>
+    <li>1/26（月）13:15–18:00</li>
+    <li>2/3（火）13:15–18:00</li>
+    <li>2/5（木）13:15–18:00</li>
+    <li>2/13（金）13:15–18:00</li>
+    <li>2/16（月）13:15–18:00</li>
   </ul>
 </section>
 
 <section id="apply">
   <h2>予約フォーム</h2>
-  <p>以下のフォームに入力、送信してください。</p>
-
-  <iframe
-    src="https://forms.office.com/Pages/ResponsePage.aspx?id=Ylunxf9LlkynIGYhzpl45aKpnZemrEJIuN9fw0tln0ZUMU1RNE1ETVVRMURIRkRCTVdaWkhJNEZLNy4u"lazy">
-  </iframe>
-
-  <p style="font-size:12px; color:#666; margin-top:8px;">
-    送信後、ご登録いただいたメールアドレス宛にご案内をお送りします。
-  </p>
-
-  <p style="font-size:12px; color:#666;">
-    ご入力いただいた個人情報は、仕事体験運営目的のみに利用します。
-    <a href="https://www.mdlogis.co.jp/privacy/index.html">プライバシーポリシー</a>をご確認ください。
-  </p>
+  https://forms.office.com/Pages/ResponsePage.aspx?id=Ylunxf9LlkynIGYhzpl45aKpnZemrEJIuN9fw0tln0ZUMU1RNE1ETVVRMURIRkRCTVdaWkhJNEZLNy4u
 </section>
+
+<div class="fixed-cta">
+  #applyこの日程で予約する</a>
+</div>
 
 <footer>
   © 2026 MDロジス株式会社
 </footer>
-
 </body>
 </html>
-
-
-
-
-
