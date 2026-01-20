@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>27卒1day仕事体験予約｜MDロジス株式会社</title>
+<title>【27卒向け】選考なし｜1day仕事体験｜MDロジス株式会社</title>
 
-https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
 :root{
@@ -13,6 +13,7 @@ https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap
   --text:#1a1a1a;
   --muted:#666;
   --border:#e6e9ef;
+  --bg:#f9fafc;
 }
 *{box-sizing:border-box}
 
@@ -21,6 +22,7 @@ body{
   font-family:'Noto Sans JP',sans-serif;
   color:var(--text);
   line-height:1.6;
+  background:#fff;
 }
 
 header{
@@ -44,32 +46,70 @@ header{
   padding:10px 18px;
   font-weight:600;
   text-decoration:none;
+  white-space:nowrap;
 }
 
 section{
-  max-width:800px;
+  max-width:720px;
   margin:auto;
   padding:24px 16px;
 }
 
-h1{font-size:26px}
-h2{font-size:20px; margin-top:32px}
+.hero{
+  padding-top:32px;
+}
 
-.card{
-  background:#f9fafc;
+.hero h1{
+  font-size:26px;
+  line-height:1.4;
+  margin-bottom:8px;
+}
+
+.hero p{
+  color:var(--muted);
+  margin-bottom:16px;
+}
+
+.benefits{
+  background:var(--bg);
   border:1px solid var(--border);
   border-radius:12px;
   padding:16px;
   margin-top:16px;
 }
 
-ul{padding-left:20px}
+.benefits li{
+  margin-bottom:8px;
+}
+
+h2{
+  font-size:20px;
+  margin-top:32px;
+}
+
+.note{
+  font-size:14px;
+  color:var(--muted);
+}
+
+.qa{
+  background:var(--bg);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:16px;
+  margin-top:16px;
+}
+
+.qa p{
+  margin:8px 0;
+}
 
 iframe{
   width:100%;
   height:75vh;
   border:none;
   border-radius:12px;
+  margin-top:16px;
 }
 
 /* 下部固定CTA（スマホ） */
@@ -106,53 +146,60 @@ footer{
 
 <header>
   <div class="brand">
-    logo.png
+    <img src="logo.png" alt="MDロジス株式会社">
   </div>
-  #apply予約する</a>
+  <a href="#apply" class="cta">空き日程を確認する</a>
 </header>
 
+<section class="hero">
+  <h1>【27卒向け】選考なし｜1day仕事体験（オンライン）</h1>
+  <p>物流業界をゼロから学べる、体験型プログラムです。</p>
+
+  <a href="#apply" class="cta">空き日程を確認する（1分）</a>
+
+  <ul class="benefits">
+    <li>業界研究が一気に進む</li>
+    <li>実務を想定したワーク付き</li>
+    <li>文理不問・初参加OK</li>
+  </ul>
+</section>
+
 <section>
-  <h1>27卒 1day仕事体験</h1>
-  <p>物流業界をゼロから学べるオンライン仕事体験です。</p>
+  <h2>開催概要</h2>
+  <ul>
+    <li>開催時期：1〜2月に複数回開催</li>
+    <li>時間：平日午後（13:15〜18:00）</li>
+    <li>形式：オンライン開催</li>
+    <li>服装：自由</li>
+  </ul>
+  <p class="note">※詳細な日程・空き状況は予約フォーム内で確認できます</p>
+</section>
 
-  <div class="card">
-    <ul>
-      <li>物流業界・企業研究に役立つ</li>
-      <li>MDロジスの価値・役割がわかる</li>
-      <li>実務を想定したワーク付き</li>
-    </ul>
+<section>
+  <h2>参加前によくある不安</h2>
+  <div class="qa">
+    <p><strong>Q. 選考はありますか？</strong><br>ありません。仕事体験のみのプログラムです。</p>
+    <p><strong>Q. 知識がなくても大丈夫ですか？</strong><br>問題ありません。基礎からご説明します。</p>
+    <p><strong>Q. 参加後に選考へ進む必要はありますか？</strong><br>強制ではありません。</p>
   </div>
-
-  <h2>プログラム内容</h2>
-  <ul>
-    <li>物流業界・会社紹介</li>
-    <li>物流基礎知識講座</li>
-    <li>輸送コーディネート／倉庫設計ワーク</li>
-  </ul>
-
-  <h2>開催日程</h2>
-  <ul>
-    <li>1/19（月）13:15–18:00</li>
-    <li>1/26（月）13:15–18:00</li>
-    <li>2/3（火）13:15–18:00</li>
-    <li>2/5（木）13:15–18:00</li>
-    <li>2/13（金）13:15–18:00</li>
-    <li>2/16（月）13:15–18:00</li>
-  </ul>
 </section>
 
 <section id="apply">
   <h2>予約フォーム</h2>
-  https://forms.office.com/Pages/ResponsePage.aspx?id=Ylunxf9LlkynIGYhzpl45aKpnZemrEJIuN9fw0tln0ZUMU1RNE1ETVVRMURIRkRCTVdaWkhJNEZLNy4u
+  <p class="note">
+    所要時間：約1分 ／ 選考なし 
+  </p>
+
+  <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=Ylunxf9LlkynIGYhzpl45aKpnZemrEJIuN9fw0tln0ZUMU1RNE1ETVVRMURIRkRCTVdaWkhJNEZLNy4u"></iframe>
 </section>
 
 <div class="fixed-cta">
-  #applyこの日程で予約する</a>
+  <a href="#apply">まずは日程を確認する</a>
 </div>
 
 <footer>
   © 2026 MDロジス株式会社
 </footer>
+
 </body>
 </html>
-
