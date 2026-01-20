@@ -22,7 +22,6 @@ body{
   font-family:'Noto Sans JP',sans-serif;
   color:var(--text);
   line-height:1.6;
-  background:#fff;
 }
 
 header{
@@ -55,10 +54,6 @@ section{
   padding:24px 16px;
 }
 
-.hero{
-  padding-top:32px;
-}
-
 .hero h1{
   font-size:26px;
   line-height:1.4;
@@ -78,30 +73,24 @@ section{
   margin-top:16px;
 }
 
-.benefits li{
-  margin-bottom:8px;
-}
+.benefits li{margin-bottom:8px}
 
 h2{
   font-size:20px;
   margin-top:32px;
 }
 
-.note{
-  font-size:14px;
-  color:var(--muted);
-}
-
-.qa{
-  background:var(--bg);
+.detail{
+  background:#fff;
   border:1px solid var(--border);
   border-radius:12px;
   padding:16px;
   margin-top:16px;
 }
 
-.qa p{
-  margin:8px 0;
+.detail strong{
+  display:block;
+  margin-bottom:6px;
 }
 
 iframe{
@@ -112,7 +101,7 @@ iframe{
   margin-top:16px;
 }
 
-/* 下部固定CTA（スマホ） */
+/* 下部固定CTA */
 .fixed-cta{
   position:fixed;
   bottom:0;
@@ -148,45 +137,74 @@ footer{
   <div class="brand">
     <img src="logo.png" alt="MDロジス株式会社">
   </div>
-  <a href="#apply" class="cta">空き日程を確認する</a>
 </header>
 
 <section class="hero">
   <h1>【27卒向け】選考なし｜1day仕事体験（オンライン）</h1>
-  <p>物流業界をゼロから学べる、体験型プログラムです。</p>
+  <p>
+    物流業界を0から学び、<br>
+    仕事の考え方・企業の役割を体験できるプログラムです。
+  </p>
 
   <a href="#apply" class="cta">空き日程を確認する（1分）</a>
 
   <ul class="benefits">
-    <li>業界研究が一気に進む</li>
-    <li>実務を想定したワーク付き</li>
-    <li>文理不問・初参加OK</li>
+    <li>物流業界を0から理解でき、業界研究に役立つ</li>
+    <li>各物流会社の役割や関係性を学び、企業研究が進む</li>
+    <li>MDロジスの魅力・価値・存在意義を知ることができる</li>
   </ul>
+</section>
+
+<section>
+  <h2>プログラム概要</h2>
+
+  <div class="detail">
+    <strong>1．物流業界／会社紹介</strong>
+    物流業界全体の構造や役割を整理しながら、  
+    MDロジスがどのような価値を提供している会社なのかをご紹介します。
+  </div>
+
+  <div class="detail">
+    <strong>2．物流基礎知識講座</strong>
+    
+  </div>
+
+  <div class="detail">
+    <strong>3．ワークショップ（就業疑似体験）</strong>
+
+    （1）<strong>輸送コーディネート業務ワーク</strong><br>
+    ただモノを運ぶだけではなく、  
+    お客様のニーズを踏まえた輸送ルート・輸送手段を考え、  
+    最適な物流提案を行っていただきます。
+    <br><br>
+
+    （2）<strong>倉庫新設計画業務ワーク</strong><br>
+    倉庫を建設する拠点の計画や、  
+    倉庫内に導入するマテハン機器・情報システムなどを検討し、  
+    物流拠点としての最適な形を提案していただきます。
+    <br><br>
+
+    ※各ワークショップごとに、社員からフィードバックを行います。
+  </div>
 </section>
 
 <section>
   <h2>開催概要</h2>
   <ul>
-    <li>開催時期：1〜2月に複数回開催</li>
+    <li>開催時期：毎月複数回開催</li>
     <li>時間：平日午後（13:15〜18:00）</li>
     <li>形式：オンライン開催</li>
+    <li>対象：2027年卒業予定の学生</li>
     <li>服装：自由</li>
   </ul>
-  <p class="note">※詳細な日程・空き状況は予約フォーム内で確認できます</p>
-</section>
-
-<section>
-  <h2>参加前によくある不安</h2>
-  <div class="qa">
-    <p><strong>Q. 選考はありますか？</strong><br>ありません。仕事体験のみのプログラムです。</p>
-    <p><strong>Q. 知識がなくても大丈夫ですか？</strong><br>問題ありません。基礎からご説明します。</p>
-    <p><strong>Q. 参加後に選考へ進む必要はありますか？</strong><br>強制ではありません。</p>
-  </div>
+  <p style="font-size:14px;color:#666">
+    ※詳細な日程・空き状況は、予約フォーム内でご確認ください
+  </p>
 </section>
 
 <section id="apply">
   <h2>予約フォーム</h2>
-  <p class="note">
+  <p style="font-size:14px;color:#666">
     所要時間：約1分 ／ 選考なし 
   </p>
 
